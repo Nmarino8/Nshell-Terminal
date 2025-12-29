@@ -10,11 +10,9 @@
   <ItemGroup>
     <None Remove="Commands\" />
     <None Remove="Utils\" />
-    <None Remove="Apps\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Commands\" />
     <Folder Include="Utils\" />
-    <Folder Include="Apps\" />
   </ItemGroup>
 </Project>
