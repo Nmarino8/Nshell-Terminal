@@ -17,7 +17,6 @@ namespace NShell.Commands
                 return;
             }
 
-            // Check if input is an IP address
             if (IPAddress.TryParse(args, out var ip))
             {
                 ReverseLookup(ip);

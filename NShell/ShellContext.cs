@@ -12,12 +12,13 @@ public class ShellContext
     public List<string> History { get; } = new List<string>();
     public int HistoryIndex { get; set; } = -1;
 
-    //prevent duplicate display of commands
     public Dictionary<string, CommandBase> Commands { get; set; }
 
     public ShellContext(string rootDir)
     {
         RootDirectory = rootDir;
         CurrentDirectory = rootDir;
+
+        Commands = new Dictionary<string, CommandBase>();
     }
 }

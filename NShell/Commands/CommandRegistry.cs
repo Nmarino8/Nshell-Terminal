@@ -21,17 +21,17 @@ namespace NShell
                 new ExitCommand(),
                 new ClearCommand(),
                 new PingCommand(),
-                new NslookupCommand()
+                new NslookupCommand(),
+                new NanoCommand(),
+                new IpConfigCommand()
             };
 
             var dict = new Dictionary<string, CommandBase>();
 
             foreach (var cmd in commands)
             {
-                // Main name
                 dict[cmd.Name] = cmd;
 
-                // Aliases
                 foreach (var alias in cmd.Aliases)
                 {
                     dict[alias] = cmd;

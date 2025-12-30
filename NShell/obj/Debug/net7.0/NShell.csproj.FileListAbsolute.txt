@@ -3,7 +3,6 @@
 /Users/niko/Projects/NShell/NShell/bin/Debug/net7.0/NShell.runtimeconfig.json
 /Users/niko/Projects/NShell/NShell/bin/Debug/net7.0/NShell.dll
 /Users/niko/Projects/NShell/NShell/bin/Debug/net7.0/NShell.pdb
-/Users/niko/Projects/NShell/NShell/obj/Debug/net7.0/NShell.csproj.AssemblyReference.cache
 /Users/niko/Projects/NShell/NShell/obj/Debug/net7.0/NShell.GeneratedMSBuildEditorConfig.editorconfig
 /Users/niko/Projects/NShell/NShell/obj/Debug/net7.0/NShell.AssemblyInfoInputs.cache
 /Users/niko/Projects/NShell/NShell/obj/Debug/net7.0/NShell.AssemblyInfo.cs
@@ -13,3 +12,4 @@
 /Users/niko/Projects/NShell/NShell/obj/Debug/net7.0/NShell.pdb
 /Users/niko/Projects/NShell/NShell/obj/Debug/net7.0/NShell.genruntimeconfig.cache
 /Users/niko/Projects/NShell/NShell/obj/Debug/net7.0/ref/NShell.dll
+/Users/niko/Projects/NShell/NShell/obj/Debug/net7.0/NShell.csproj.AssemblyReference.cache

@@ -16,7 +16,6 @@ public class HelpCommand : CommandBase
 
         var commands = context.Commands.Values.Distinct().ToList();
 
-        // Define a fixed width for the first column
         int colWidth = 25;
 
         foreach (var cmd in commands)
@@ -24,7 +23,6 @@ public class HelpCommand : CommandBase
             string aliasString = cmd.Aliases.Any() ? $" ({string.Join(", ", cmd.Aliases)})" : "";
             string nameWithAlias = cmd.Name + aliasString;
 
-            // Include arguments if provided
             if (!string.IsNullOrEmpty(cmd.Arguments))
                 nameWithAlias += " " + cmd.Arguments;
 
