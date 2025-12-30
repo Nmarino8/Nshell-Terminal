@@ -6,6 +6,7 @@
 - [Version](#version)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Screenshots](#screenshots)
 - [Contributions](#contributions)
 - [License](#license)
 
@@ -60,6 +61,21 @@ ls, cd, pwd, touch, rm, mkdir, clear, ping
 
 ---
 
+## Screenshots
+
+Here are some visual examples of NShell in action, demonstrating key commands and functionality.
+
+**Help Command:**  
+The `help` or `-h` command provides a list of available commands and their usage.
+
+<img src="Screenshots/Screenshot_1.png" alt="Help Command" width="600">
+
+**IP Configuration and NSLookup:**  
+The `ipconfig` and `nslookup` commands show network information, including IP addresses, gateways, and DNS resolution.
+
+<img src="Screenshots/Screenshot_2.png" alt="IPConfig & NSLookup" width="600">
+
+---
 ## Contributions
 
 Contributions to NShell are welcome! You can help improve the project by following these steps:
