@@ -32,7 +32,15 @@ namespace NShell.Commands
             try
             {
                 var addresses = Dns.GetHostAddresses(host);
+
                 Console.WriteLine($"Name: {host}");
+
+                if (addresses.Length == 0)
+                {
+                    Console.WriteLine("No IP addresses found.");
+                    return;
+                }
+
                 foreach (var addr in addresses)
                 {
                     Console.WriteLine($"Address: {addr}");
@@ -49,12 +57,22 @@ namespace NShell.Commands
             try
             {
                 var entry = Dns.GetHostEntry(ip);
+
                 Console.WriteLine($"Name: {entry.HostName}");
                 Console.WriteLine($"Address: {ip}");
+
+                if (entry.Aliases.Length > 0)
+                {
+                    Console.WriteLine("Aliases:");
+                    foreach (var alias in entry.Aliases)
+                    {
+                        Console.WriteLine($" - {alias}");
+                    }
+                }
             }
-            catch
+            catch (Exception ex)
             {
-                Console.WriteLine($"No reverse DNS record for {ip}");
+                Console.WriteLine($"No reverse DNS record for {ip}: {ex.Message}");
             }
         }
     }
