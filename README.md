@@ -3,7 +3,6 @@
 ## Table of Contents
 - [Overview](#overview)
 - [Features](#features)
-- [Version](#version)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Screenshots](#screenshots)
@@ -29,11 +28,6 @@ The shell includes built-in commands such as directory navigation, file manageme
 - Extensible design for adding custom commands  
 - Ability to run external apps within the same terminal session  
 
----
-
-## Version
-#### **[v1.0.0] – 29-12-2025**
-> Initial release of NShell with core shell functionality, built-in commands, input history, and extensibility support.
 ---
 
 ## Installation
