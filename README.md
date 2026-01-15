@@ -97,23 +97,23 @@ git push origin feature/YourFeature
 
 ## License
 
-> [!IMPORTANT]
-> **StudyFlow is licensed under a custom MIT-style License for personal, educational, and contribution purposes only. Commercial use or resale is not permitted without explicit permission from the author.**
->
-> #### License Text
-> 
-> Copyright (c) 2026 Niko Marinović
->
-> Permission is hereby granted, free of charge, to any person obtaining a copy
-> of this software and associated documentation files (the “Software”), to use,
-> copy, modify, merge, publish, distribute, and contribute to the Software for
-> personal or educational purposes only. Commercial use, resale, or distribution
-> for profit is **not allowed**.
->
-> The above copyright notice and this permission notice shall be included in all
-> copies or substantial portions of the Software.
->
-> THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-> IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-> FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+**StudyFlow** is licensed under a custom MIT-style License for personal, educational, and contribution purposes only. Commercial use or resale is not permitted without explicit permission from the author.
+
+### License Text
+
+Copyright (c) 2026 [Niko Marinović](https://github.com/Nmarino8)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the “Software”), to use,
+copy, modify, merge, publish, distribute, and contribute to the Software for
+personal or educational purposes only. Commercial use, resale, or distribution
+for profit is **not allowed**.
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
 ---
